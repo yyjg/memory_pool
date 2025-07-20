@@ -59,6 +59,13 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "map": "cpp",
-        "span_ext": "cpp"
+        "span_ext": "cpp",
+        "chrono": "cpp",
+        "util": "cpp",
+        "bitset": "cpp",
+        "ranges": "cpp",
+        "stacktrace": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp"
     }
 }

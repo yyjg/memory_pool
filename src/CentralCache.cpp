@@ -39,6 +39,7 @@ namespace Memory_Pool {
                 // 8页的切分
                 size_t totalBlocks = (SPAN_PAGES * PageCache::PAGE_SIZE) / size;
                 size_t allocBlocks = std::min(batchNum, totalBlocks);
+                batchNum = allocBlocks;
 
                 // 构建链表
                 if (allocBlocks > 1) {

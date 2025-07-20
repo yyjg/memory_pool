@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/yjg/code/myProject/memory_pool/include
 
-CXX_FLAGS = -std=gnu++17 -Wall -O2
+CXX_FLAGS = -std=gnu++17 -g -Wall -O2
 

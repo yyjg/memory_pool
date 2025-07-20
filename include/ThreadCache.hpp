@@ -26,6 +26,7 @@ namespace Memory_Pool {
         size_t getBatchNum(size_t size);
         // 判断是否归还内存给中心缓存
         bool shouldReturnToCentralCache(size_t index);
+
     private:
         //  线程维护成员
         //  内存指针数组
