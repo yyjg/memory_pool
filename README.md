@@ -28,5 +28,5 @@ make clean
 ### 功能测试结果
 ![alt text](result/unit_test.png)
 ### 性能测试结果
-测试结果表明内存池v3的性能要略好于内存池v2。
+测试结果表明内存池性能要略好系统调用。
 ![alt text](result/performance_test.png)
