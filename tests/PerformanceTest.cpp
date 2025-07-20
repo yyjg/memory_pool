@@ -57,7 +57,7 @@ public:
 
     // 2. 小对象分配测试
     static void testSmallAllocation() {
-        constexpr size_t NUM_ALLOCS = 100000;
+        constexpr size_t NUM_ALLOCS = 1000000;
         constexpr size_t SMALL_SIZE = 32;
 
         std::cout << "\nTesting small allocations (" << NUM_ALLOCS << " allocations of "
@@ -114,8 +114,8 @@ public:
     // 3. 多线程测试
     static void testMultiThreaded() {
         constexpr size_t NUM_THREADS = 4;
-        constexpr size_t ALLOCS_PER_THREAD = 25000;
-        constexpr size_t MAX_SIZE = 256;
+        constexpr size_t ALLOCS_PER_THREAD = 250000;
+        constexpr size_t MAX_SIZE = 1024;
 
         std::cout << "\nTesting multi-threaded allocations (" << NUM_THREADS
             << " threads, " << ALLOCS_PER_THREAD << " allocations each):"
@@ -195,8 +195,8 @@ public:
 
     // 4. 混合大小测试
     static void testMixedSizes() {
-        constexpr size_t NUM_ALLOCS = 50000;
-        const size_t SIZES[] = { 16, 32, 64, 128, 256, 512, 1024, 2048 };
+        constexpr size_t NUM_ALLOCS = 500000;
+        const size_t SIZES[] = { 16, 32, 64, 128, 256, 512, 1024,2048 };
 
         std::cout << "\nTesting mixed size allocations (" << NUM_ALLOCS
             << " allocations):" << std::endl;
