@@ -29,7 +29,7 @@ make clean
 ## 测试结果
 
 ### 功能测试结果
-![alt text](images/v3-functionalTest.png)
+![alt text](test_unit_test.png)
 ### 性能测试结果
 测试结果表明内存池v3的性能要略好于内存池v2。
-![alt text](images/v3-performanceTest.png)
+![alt text](test/performance_test.png)
